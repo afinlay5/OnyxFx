@@ -10,10 +10,10 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png)
 
 # Platform 
-	<pre><b>For Development</b></pre>
+	##For Development
 		- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
 		- Any platform supporting Java 8 for rest of the proejct.
-	<pre><b>For Execution</b></pre>
+	##For Execution
 		- Mobile: Android 7.1 Nougat (API Level 25)
 		- Mobile: iOS Device (iOS 11)
 		- Desktop: Any supporting Java SE 8/JavaFX 8.
