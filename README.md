@@ -2,11 +2,11 @@
 Gradle source code repository containing source code and binaries for cross-platform mobile app to complement my blog @ https://bit.ly/JavaFXMobile.
 Built and tested on Fedora Linux 28/macOS High Sierra.
 
-Pre-built binaries can be found in the following directories.
+Pre-built binaries can be found in the following directories:
 
-Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip
-Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk
-iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app
+Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip <br />
+Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk <br />
+iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br />
 
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png)
 
