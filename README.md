@@ -44,6 +44,7 @@ Built and tested on Fedora Linux 28/macOS High Sierra. For your convenience, pre
 - Android Command Line Tools(SDK v.27)
 - XCode 9.2 (or greater)
 - Gradle 4.2 (or greater)
+- Git Large File Storage (v.2.5.0)
 
 # Known Problems
 - N/A (08/01/2018).
