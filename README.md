@@ -28,25 +28,23 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 - N/A (08/01/2018).
 
 # Gradle Tasks
-	Android Tasks
-		- ./gradlew android will create an Android package signed with a debug keystore
-		- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
-		- ./gradlew androidInstall installs your Android application on an Android device that is 
-	  	connected to your development system via a USB cable
+**Android Tasks**
+	- ./gradlew android will create an Android package signed with a debug keystore
+	- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
+	- ./gradlew androidInstall installs your Android application on an Android device that is connected to your development system via a USB cable
 
-	iOS Tasks
-		- ./gradlew launchIOSDevice launches your application on an iOS device that is 
-	  	connected to your development system
-		- ./gradlew launchIPadSimulator launces your application in an iPad simulator
-		- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
-		- ./gradlew createIpa creates an iOS IPA package
+**iOS Tasks**
+	- ./gradlew launchIOSDevice launches your application on an iOS device that is connected to your development system
+	- ./gradlew launchIPadSimulator launces your application in an iPad simulator
+	- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
+	- ./gradlew createIpa creates an iOS IPA package
 
-	General
-		- ./gradlew build will build the project
-		- ./gradlew run will launch your application on your development system
+**General**
+	- ./gradlew build will build the project
+	- ./gradlew run will launch your application on your development system
 
-	Embedded
-		- ./gradlew runEmbedded will launch your application on an embedded device
+**Embedded**
+	- ./gradlew runEmbedded will launch your application on an embedded device
 
 # Execution Screenshots
 
