@@ -1,4 +1,4 @@
-# OnyxFx
+# OnyxFx®
 Gradle source code repository for OnyxFx, a cross-platform (Android/iOS/Linux/macOS/Windows) JavaFX app rendering information about NBA® statistics. Built and tested on Fedora Linux 28/macOS High Sierra. App designed to complement my blog @ https://bit.ly/JavaFXMobile.
 
 <p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png"/> </p>
@@ -30,22 +30,22 @@ Pre-built binaries can be found in the following directories:
 - N/A (08/01/2018).
 
 # Gradle Tasks
-**Android Tasks**
+- **Android Tasks**
 	- ./gradlew android will create an Android package signed with a debug keystore
 	- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
 	- ./gradlew androidInstall installs your Android application on an Android device that is connected to your development system via a USB cable
 
-**iOS Tasks**
+- **iOS Tasks**
 	- ./gradlew launchIOSDevice launches your application on an iOS device that is connected to your development system
 	- ./gradlew launchIPadSimulator launces your application in an iPad simulator
 	- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
 	- ./gradlew createIpa creates an iOS IPA package
 
-**General**
+- **General**
 	- ./gradlew build will build the project
 	- ./gradlew run will launch your application on your development system
 
-**Embedded**
+- **Embedded**
 	- ./gradlew runEmbedded will launch your application on an embedded device
 
 # Execution Screenshots
