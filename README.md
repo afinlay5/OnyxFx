@@ -1,6 +1,5 @@
 # OnyxFx
-Gradle source code repository for OnyxFx, a cross-platform (Android/iOS/Linux/macOS/Windows) JavaFX app rendering information about NBA® statistics.
-Built and tested on Fedora Linux 28/macOS High Sierra. App designed to complement my blog @ https://bit.ly/JavaFXMobile
+Gradle source code repository for OnyxFx, a cross-platform (Android/iOS/Linux/macOS/Windows) JavaFX app rendering information about NBA® statistics. Built and tested on Fedora Linux 28/macOS High Sierra. App designed to complement my blog @ https://bit.ly/JavaFXMobile.
 
 Pre-built binaries can be found in the following directories:
 
@@ -11,13 +10,23 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png)
 
 # Platform 
-	#For Development
+	# For Development
 		- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
 		- Any platform supporting Java 8 for rest of the proejct.
 	#For Execution
 		- Mobile: Android 7.1 Nougat (API Level 25)
 		- Mobile: iOS Device (iOS 11)
 		- Desktop: Any supporting Java SE 8/JavaFX 8.
+
+# Requirements
+- Exaclty Oracle JDK 1.8.
+- Android Command Line Tools(SDK v.27)
+- XCode 9.2 (or greater)
+- Gradle 4.2 (or greater)
+- Git Large File Storage (v.2.5.0)
+
+# Known Problems
+- N/A (08/01/2018).
 
 # Gradle Tasks
 	[b]Android Tasks[/b]
@@ -46,41 +55,23 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 	**Embedded**
 		- ./gradlew runEmbedded will launch your application on an embedded device
 
-# Requirements
-- Exaclty Oracle JDK 1.8.
-- Android Command Line Tools(SDK v.27)
-- XCode 9.2 (or greater)
-- Gradle 4.2 (or greater)
-- Git Large File Storage (v.2.5.0)
-
-# Known Problems
-- N/A (08/01/2018).
-
 # Execution Screenshots
-##Desktop
-
+<pre><b>Desktop</b></pre>
 <br/>
-<br/>
-
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
-
-##Android
-
+</br>
+<pre><b>Android</b></pre>
 <br/>
-<br/>
-
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
-
-##iOS
-
-<br/>
-<br/>
-
+</br>
+<pre><b>iOS</b></pre>
+</br>
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS3.png)
+</br>
 
 # Resources to explore
 -	JavaFxMobile Plugin Git Repo: https://github.com/javafxports/javafxmobile-plugin
