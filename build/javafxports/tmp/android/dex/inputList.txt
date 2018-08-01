@@ -1,0 +1,1 @@
+/home/adriandavid/Projects/OnyxFx/build/javafxports/tmp/android/multi-dex/allclasses.jar

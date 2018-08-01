@@ -1,0 +1,61 @@
+Directions.
+
+#1 - Create a folder for project
+
+#2 - Gradle init, git init(if desired)
+
+#3 - Get groovy! (Earth Wind Fire) Edit build.gradle (http://docs.gluonhq.com/javafxports/#_how_it_works) and configure jfxmobile-plugin from jcenter()
+		-	The jfxmobile plugin will download and install the JavaFX SDKs for iOS and Android.
+		- 	jcenter() is a superset of Maven Central https://stackoverflow.com/questions/24852219/android-buildscript-repositories-jcenter-vs-mavencentral
+		-	The plugin will download and install the RoboVM compiler, and it will use RoboVM compiler commands to create an iOS application in build/javafxports/ios.
+#4 - Increase JVM stack size
+	-	~/.gradle/gradle.properties
+	-	org.gradle.jvmargs=-Xms256m -Xmx4096m -Xss2m
+
+#5 - Install the USB Multiplexing Socket daemon (usbmuxd) 
+	-brew install usbmuxd
+
+#6 - Grab Android Command Line Tools for your platform (https://developer.android.com/studio/#downloads)
+
+#7 - Extract Zip Contents to desired location; Set ANDROID_HOME to point to root folder
+		- Let Gradle know where the Android SDK is in one of three ways
+			1) an androidSdk property defined under jfxmobile.android in build.gradle
+			2) a gradle property with the name ANDROID_HOME: defined in ~/.gradle/gradle.properties or 
+			3) by passing -PANDROID_HOME to the gradle build a system environment variable with the name ANDROID_HOME
+
+#8 - Set JAVA_HOME to point to Oracle JDK 8 (Haven't tried with openJDK)
+
+#9 - Android: Install at least version 23.0.1 of the 1)Build-tools, 2) the SDK Platform for API 21 and from 3) Extras the Android Support Repository.
+		- ./sdkmanager "platform-tools" "build-tools;27.0.3" "platforms;android-27" "extras;android;m2repository" "extras;google;m2repository"
+
+#10 - Create Directory Structures
+	-	Platform Independent
+			-	src/main/java
+			-	src/main/resources
+	-	Android
+			-	src/android/javafxports
+			-	src/android/resources
+			-	src/android/assets
+			-	src/android/jniLibs
+	-	iOS
+			-	src/ios/java
+			-	src/ios/resources
+			-	src/ios/assets
+			-	src/ios/jniLibs
+			-	src/ios/frameworks
+	-	Desktop
+			-	src/desktop/java
+			-	src/desktop/resources
+	-	Embedded
+			-	src/embedded/java
+			-	src/embedded/resources
+
+	- 	While our focus is producing a cross platform Android an iOS application, we will produce a Desktop app, to show how painless the process is.
+		We will not, however, produce an embedded application in this tutorial.
+
+	-	Create a Script to automate creation of these directories AND package directories (me.adriandavid.*)
+
+	-	Set as executable (sudo chmod +x mkdir.sh)
+
+	- 	Execute Script (sudo -sh ./mkdir.sh)
+#11 - The dirty work(the code!)

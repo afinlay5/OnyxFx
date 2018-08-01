@@ -1,0 +1,59 @@
+/*
+	OnyxFxMobile: A simple, cross-platform NBA stat app for Andriod, iOS written in Java/JavaFX.
+	Author: Adrian D. Finlay
+	License: GPLv2
+*/
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+    	// Important! Do not install version 2.0, grab the latest 1.x version
+        classpath 'org.javafxports:jfxmobile-plugin:1.3.13'
+    }
+}
+
+apply plugin: 'org.javafxports.jfxmobile'
+
+mainClassName = 'me.adriandavid.OnyxFx'
+
+//Strictly JDK 8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+repositories {
+    jcenter()
+}
+
+jfxmobile {
+    javafxportsVersion = '8.60.9' //unnecessary but here for us if we want to change it
+    ios {
+        forceLinkClasses = [ 'me.adriandavid.**.*' ]
+        robovmVersion = '2.3.5-ios11' //This is the latest build as of present 08/01/2018 on jcenter
+        iosSkipSigning = true //skip signing for now
+        //iosSignIdentity = '...'
+        //iosProvisioningProfile = '...'
+
+        //iOS Simulator options were set in gradle/wrapper/gradle-wrapper.properties.
+        //We'll target an iPhone 7 running iOS 11.  
+    }
+    android {
+        //buildToolsVersion = '...' edit to match your target build tools version.
+    	applicationPackage = 'org.javafxports.OnyxFx'
+
+        // Let's Target Android 7.1 (Nougat)
+        compileSdkVersion = 25 // Android API version
+        minSdkVersion = 25 //Minimum Android API version
+        targetSdkVersion = 25 //API version that application targets
+
+        dexOptions {
+            javaMaxHeapSize '3g'
+        }
+    }
+}
+
+//SIZE=8192 ; diskutil erasevolume HFS+ 'RoboVM RAM Disk' `hdiutil attach -nomount ram://$((SIZE * 8192))`
+// /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

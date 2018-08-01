@@ -1,0 +1,107 @@
+------------------------------------------------------------
+All tasks runnable from root project
+------------------------------------------------------------
+
+Application tasks
+-----------------
+debug - Runs this program as a JVM application for debugging
+run - Runs this project as a JVM application
+
+Build tasks
+-----------
+androidClasses - Assembles android classes.
+assemble - Assembles the outputs of this project.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+desktopClasses - Assembles desktop classes.
+embeddedClasses - Assembles embedded classes.
+iosClasses - Assembles ios classes.
+jar - Assembles a jar archive containing the main classes.
+testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Distribution tasks
+------------------
+assembleDist - Assembles the main distributions
+distTar - Bundles the project as a distribution.
+distZip - Bundles the project as a distribution.
+installDist - Installs the project as a distribution as-is.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the main source code.
+
+Gluon Mobile for Android tasks
+------------------------------
+android - Generates a debug Android apk containing the JavaFX application.
+androidInstall - Launch the application on a connected android device.
+androidRelease - Generates a release Android apk containing the JavaFX application.
+apkDebug
+apkRelease
+applyRetrolambda
+collectMultiDexComponents
+copyClassesForRetrolambda
+createMainDexList
+dex
+mergeAndroidAssets
+mergeAndroidResources
+mergeClassesIntoJar
+processAndroidResourcesDebug
+processAndroidResourcesRelease
+shrinkMultiDexComponents
+validateManifest
+validateSigningDebug
+validateSigningRelease
+writeInputListFile
+zipalignDebug
+zipalignRelease
+
+Gluon Mobile for Embedded tasks
+-------------------------------
+copyEmbeddedDependencies
+copyJarToEmbeddedPlatform
+embeddedJar
+runEmbedded - Launch the application on a remote embedded platform.
+
+Gluon Mobile for iOS tasks
+--------------------------
+createIpa - Generates an iOS ipa containing the JavaFX application.
+ios
+launchIOSDevice - Launch the application on a connected ios device.
+launchIPadSimulator - Launch the application on an iPad simulator.
+launchIPhoneSimulator - Launch the application on an iPhone simulator.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'OnyxFxMobile'.
+components - Displays the components produced by root project 'OnyxFxMobile'. [incubating]
+dependencies - Displays all dependencies declared in root project 'OnyxFxMobile'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'OnyxFxMobile'.
+dependentComponents - Displays the dependent components of components in root project 'OnyxFxMobile'. [incubating]
+help - Displays a help message.
+model - Displays the configuration model of root project 'OnyxFxMobile'. [incubating]
+projects - Displays the sub-projects of root project 'OnyxFxMobile'.
+properties - Displays the properties of root project 'OnyxFxMobile'.
+tasks - Displays the tasks runnable from root project 'OnyxFxMobile'.
+
+Verification tasks
+------------------
+check - Runs all checks.
+test - Runs the unit tests.
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+Pattern: upload<ConfigurationName>: Assembles and uploads the artifacts belonging to a configuration.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>

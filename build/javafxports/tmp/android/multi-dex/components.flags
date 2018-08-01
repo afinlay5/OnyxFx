@@ -1,0 +1,31 @@
+-injars /home/adriandavid/Projects/OnyxFx/build/javafxports/tmp/android/multi-dex/allclasses.jar
+-outjars /home/adriandavid/Projects/OnyxFx/build/javafxports/tmp/android/multi-dex/componentClasses.jar
+
+-libraryjars /home/adriandavid/Android/build-tools/27.0.3/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontnote
+-dontwarn
+-printconfiguration /home/adriandavid/Projects/OnyxFx/build/javafxports/tmp/android/multi-dex/components.flags
+
+
+-keep class android.support.multidex.MultiDexApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class javafxports.android.FXActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
