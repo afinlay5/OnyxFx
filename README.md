@@ -50,23 +50,20 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 		- ./gradlew runEmbedded will launch your application on an embedded device
 
 # Execution Screenshots
-<pre><b>Desktop</b></pre>
-<br/>
+##Desktop
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
-</br>
-<pre><b>Android</b></pre>
-<br/>
+	<br/>
+##Android
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
-</br>
-<pre><b>iOS</b></pre>
-</br>
+	<br/>
+##iOS
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS3.png)
-</br>
-
+	<br/>
+	
 # Resources to explore
 -	JavaFxMobile Plugin Git Repo: https://github.com/javafxports/javafxmobile-plugin
 -	JavaFxPorts Documentation: http://docs.gluonhq.com/javafxports/#_how_it_works
