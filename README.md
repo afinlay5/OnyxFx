@@ -58,29 +58,18 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 
 # Execution Screenshots
 ##Desktop
-
-<br/>
-<br/>
-
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
-
+	<br/>
 ##Android
-
-<br/>
-<br/>
-
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
-
+	<br/>
 ##iOS
-
-<br/>
-<br/>
-
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS3.png)
+	<br/>
 
 # Resources to explore
 -	JavaFxMobile Plugin Git Repo: https://github.com/javafxports/javafxmobile-plugin
