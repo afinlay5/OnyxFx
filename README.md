@@ -61,10 +61,8 @@ Pre-built binaries can be found in the following directories:
 </p>
 
 **iOS**
-<p align="center"> 
-	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.PNG"/>
-	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.PNG"/> 
-</p>
+<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.PNG"/> </p>
+<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.PNG"/> </p>
 	
 # Resources to explore
 -	JavaFxMobile Plugin Git Repo: https://github.com/javafxports/javafxmobile-plugin
