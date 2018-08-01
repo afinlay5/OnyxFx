@@ -7,7 +7,7 @@ Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip <br />
 Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk <br />
 iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br />
 
-![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png)
+<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png"/> </p>
 
 # Platform 
 	**For Development**
