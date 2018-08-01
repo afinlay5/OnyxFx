@@ -66,7 +66,7 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 ##Android
 <br/>
 <br/>
-	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
 
 ##iOS
