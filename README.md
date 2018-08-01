@@ -57,18 +57,18 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 - N/A (08/01/2018).
 
 # Execution Screenshots
-	__ __Desktop__ __
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
+##Desktop
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_3.png)
 
-	**Android**
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_1.png)
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_2.png)
+##Android
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_1.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_2.png)
 
-	**iOS**
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_1.png)
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_2.png)
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPad_1.png)
+##iOS
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_1.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_2.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPad_1.png)
 
 # Resources to explore
 -	JavaFxMobile Plugin Git Repo: https://github.com/javafxports/javafxmobile-plugin
