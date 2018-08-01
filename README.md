@@ -5,9 +5,9 @@ Gradle source code repository for OnyxFx, a cross-platform (Android/iOS/Linux/ma
 
 Pre-built binaries can be found in the following directories:
 
-Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip <br />
-Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk <br />
-iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br />
+- Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip <br />
+- Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk <br />
+- iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br />
 
 # Platform 
 **For Development**
@@ -20,11 +20,11 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 	- Desktop: Any supporting Java SE 8/JavaFX 8.
 
 # Development Requirements
-	- A JDK 1.8 Compliant JVM.
-	- Android Command Line Tools(SDK v.27)
-	- XCode 9.2.
-	- Gradle 4.2.
-	- Git Large File Storage (v.2.5.0)
+- A JDK 1.8 Compliant JVM.
+- Android Command Line Tools(SDK v.27)
+- XCode 9.2.
+- Gradle 4.2.
+- Git Large File Storage (v.2.5.0)
 
 # Known Problems
 - N/A (08/01/2018).
