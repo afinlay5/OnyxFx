@@ -10,10 +10,10 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png)
 
 # Platform 
-	# For Development
+	<pre><b>For Development</b></pre>
 		- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
 		- Any platform supporting Java 8 for rest of the proejct.
-	#For Execution
+	<pre><b>For Execution</b></pre>
 		- Mobile: Android 7.1 Nougat (API Level 25)
 		- Mobile: iOS Device (iOS 11)
 		- Desktop: Any supporting Java SE 8/JavaFX 8.
@@ -29,30 +29,24 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 - N/A (08/01/2018).
 
 # Gradle Tasks
-	[b]Android Tasks[/b]
+	<pre><b>Android Tasks</pre></b>
 		- ./gradlew android will create an Android package signed with a debug keystore
-
 		- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
-
 		- ./gradlew androidInstall installs your Android application on an Android device that is 
 	  	connected to your development system via a USB cable
 
-	**iOS Tasks**
+	<pre><b>iOS Tasks</pre></b>
 		- ./gradlew launchIOSDevice launches your application on an iOS device that is 
 	  	connected to your development system
-
 		- ./gradlew launchIPadSimulator launces your application in an iPad simulator
-
 		- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
-
 		- ./gradlew createIpa creates an iOS IPA package
 
-	**General**
+	<pre><b>General</pre></b>
 		- ./gradlew build will build the project
-
 		- ./gradlew run will launch your application on your development system
 
-	**Embedded**
+	<pre><b>Embedded</pre></b>
 		- ./gradlew runEmbedded will launch your application on an embedded device
 
 # Execution Screenshots
