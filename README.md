@@ -2,7 +2,7 @@
 Gradle source code repository containing source code and binaries for cross-platform mobile app to complement my blog @ https://bit.ly/JavaFXMobile.
 Built and tested on Fedora Linux 28/macOS High Sierra.
 
-Pre-built binaries can be found in the following directories:
+Pre-built binaries can be found in the following directories.
 
 Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip
 Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk
@@ -20,30 +20,31 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app
 		- Desktop: Any supporting Java SE 8/JavaFX 8.
 
 # Gradle Tasks
-	# Android Tasks
-	- ./gradlew android will create an Android package signed with a debug keystore
+	**Android Tasks**
+		- ./gradlew android will create an Android package signed with a debug keystore
 
-	- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
+		- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
 
-	- ./gradlew androidInstall installs your Android application on an Android device that is 
-	  connected to your development system via a USB cable
+		- ./gradlew androidInstall installs your Android application on an Android device that is 
+	  	connected to your development system via a USB cable
 
-	# iOS Tasks
-	- ./gradlew launchIOSDevice launches your application on an iOS device that is 
-	  connected to your development system
+	**iOS Tasks**
+		- ./gradlew launchIOSDevice launches your application on an iOS device that is 
+	  	connected to your development system
 
-	- ./gradlew launchIPadSimulator launces your application in an iPad simulator
+		- ./gradlew launchIPadSimulator launces your application in an iPad simulator
 
-	- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
+		- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
 
-	- ./gradlew createIpa creates an iOS IPA package
+		- ./gradlew createIpa creates an iOS IPA package
 
-	#General 
-	- ./gradlew build will build the project
-	- ./gradlew run will launch your application on your development system
+	**General**
+		- ./gradlew build will build the project
 
-	#Embedded
-	- ./gradlew runEmbedded will launch your application on an embedded device
+		- ./gradlew run will launch your application on your development system
+
+	**Embedded**
+		- ./gradlew runEmbedded will launch your application on an embedded device
 
 # Requirements
 - Exaclty Oracle JDK 1.8.
@@ -56,13 +57,13 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app
 - N/A (08/01/2018).
 
 # Execution Screenshots
-	#Desktop
+	**Desktop**
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
-	#Android
+	**Android**
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_1.png)
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_2.png)
-	#iOS
+	**iOS**
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_1.png)
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_2.png)
 		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPad_1.png)
