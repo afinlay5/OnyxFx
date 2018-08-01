@@ -1,6 +1,6 @@
 # OnyxFx
-Gradle source code repository containing source code and binaries for cross-platform mobile app to complement my blog @ https://bit.ly/JavaFXMobile.
-Built and tested on Fedora Linux 28/macOS High Sierra.
+Gradle source code repository for OnyxFx, a cross-platform (Android/iOS/Linux/macOS/Windows) JavaFX app rendering information about NBA® statistics.
+Built and tested on Fedora Linux 28/macOS High Sierra. App designed to complement my blog @ https://bit.ly/JavaFXMobile
 
 Pre-built binaries can be found in the following directories:
 
@@ -20,7 +20,7 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 		- Desktop: Any supporting Java SE 8/JavaFX 8.
 
 # Gradle Tasks
-	**Android Tasks**
+	<b>Android Tasks</b>
 		- ./gradlew android will create an Android package signed with a debug keystore
 
 		- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
