@@ -60,14 +60,14 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 ##Desktop
 <br/>
 <br/>
-	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
 	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_3.png)
 
 ##Android
 <br/>
 <br/>
-	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_1.png)
-	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_2.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
+	![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
 
 ##iOS
 <br/>
