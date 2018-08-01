@@ -49,8 +49,10 @@ Pre-built binaries can be found in the following directories:
 # Execution Screenshots
 
 **Desktop**
-<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png"/> </p>
-<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png"/> </p>
+<p align="center"> 
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png"/>
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png"/> 
+</p>
 	
 **Android**
 	<br/>
