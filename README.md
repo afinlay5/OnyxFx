@@ -55,16 +55,16 @@ Pre-built binaries can be found in the following directories:
 </p>
 	
 **Android**
-	<br/>
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_1.png)
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png)
-	<br/>
+<p align="center"> 
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_1.png"/>
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/ANDROID_2.png"/> 
+</p>
 
 **iOS**
-	<br/>
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.png)
-		![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.png)
-	<br/>
+<p align="center"> 
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS_1.png"/>
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS_2.png"/> 
+</p>
 	
 # Resources to explore
 -	JavaFxMobile Plugin Git Repo: https://github.com/javafxports/javafxmobile-plugin
