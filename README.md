@@ -62,8 +62,8 @@ Pre-built binaries can be found in the following directories:
 
 **iOS**
 <p align="center"> 
-	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS_1.png"/>
-	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS_2.png"/> 
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS1.PNG"/>
+	<img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iOS2.PNG"/> 
 </p>
 	
 # Resources to explore
