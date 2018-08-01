@@ -10,13 +10,11 @@ Pre-built binaries can be found in the following directories:
 - iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br />
 
 # Platform 
-**For Development**
+- **For Development**
 	- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
-	</br>
 	- Any platform supporting Java 8 for rest of the proejct.
-**For Execution** 
+- **For Execution** 
 	- Mobile: Android 7.1 Nougat (API Level 25) / iOS Device (iOS 11)
-	</br>
 	- Desktop: Any supporting Java SE 8/JavaFX 8.
 
 # Development Requirements
@@ -33,10 +31,10 @@ Pre-built binaries can be found in the following directories:
 - **Android Tasks**
 	- ./gradlew android will create an Android package signed with a debug keystore
 	- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
-	- ./gradlew androidInstall installs your Android application on an Android device that is connected to your development system via a USB cable
+	- ./gradlew androidInstall installs your Android application on an Android device via USB
 
 - **iOS Tasks**
-	- ./gradlew launchIOSDevice launches your application on an iOS device that is connected to your development system
+	- ./gradlew launchIOSDevice launches your application on an iOS device via USB
 	- ./gradlew launchIPadSimulator launces your application in an iPad simulator
 	- ./gradlew launchIPhoneSimulator launches your application in an iPhone simulator
 	- ./gradlew createIpa creates an iOS IPA package
