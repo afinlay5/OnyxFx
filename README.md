@@ -3,6 +3,7 @@ Gradle source code repository containing source code and binaries for cross-plat
 Built and tested on Fedora Linux 28/macOS High Sierra.
 
 Pre-built binaries can be found in the following directories:
+
 Desktop: /build/Distributions/OnyxFxMobile.tar or /""/""/OnyxFxMobile.zip
 Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.apk
 iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app
@@ -10,13 +11,13 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png)
 
 # Platform 
-  #For Development
-	- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
-	- Any platform supporting Java 8 for rest of the proejct.
-  #For Execution
-  	- Mobile: Android 7.1 Nougat (API Level 25)
-  	- Mobile: iOS Device (iOS 11)
-  	- Desktop: Any supporting Java SE 8/JavaFX 8.
+	#For Development
+		- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
+		- Any platform supporting Java 8 for rest of the proejct.
+	#For Execution
+		- Mobile: Android 7.1 Nougat (API Level 25)
+		- Mobile: iOS Device (iOS 11)
+		- Desktop: Any supporting Java SE 8/JavaFX 8.
 
 # Gradle Tasks
 	# Android Tasks
@@ -55,13 +56,13 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app
 - N/A (08/01/2018).
 
 # Execution Screenshots
--	Desktop
+#Desktop
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_1.png)
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/DESKTOP_2.png)
--	Android
+#Android
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_1.png)
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/Android_2.png)
--	iOS
+#iOS
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_1.png)
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPhone6_2.png)
 ![alt text](https://raw.githubusercontent.com/afinlay5/OnyxFx/master/exc_screenshots/iPad_1.png)
