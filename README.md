@@ -20,7 +20,7 @@ iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br /
 		- Desktop: Any supporting Java SE 8/JavaFX 8.
 
 # Gradle Tasks
-	<b>Android Tasks</b>
+	[b]Android Tasks[/b]
 		- ./gradlew android will create an Android package signed with a debug keystore
 
 		- ./gradlew androidRelease will create an Android package signed with the configured signingConfig
