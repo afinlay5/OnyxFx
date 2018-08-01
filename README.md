@@ -10,10 +10,10 @@ Android: /build/javafxports/OnyxFxMobile.apk or /""/""/OnyxFxMobile-unaligned.ap
 iOS:	/build/javafxports/ios/OnyxFxMobile.ipa or /""/""/""/OnyxFxMobile.app <br />
 
 # Platform 
-**For Development**
+**For Development** </br>
 	- MacOS X 10.11.5 (or greater) for compilation of iOS project. 	
 	- Any platform supporting Java 8 for rest of the proejct.
-**For Execution**
+**For Execution** </br>
 	- Mobile: Android 7.1 Nougat (API Level 25) / iOS Device (iOS 11)
 	- Desktop: Any supporting Java SE 8/JavaFX 8.
 
