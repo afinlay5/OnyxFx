@@ -400,10 +400,3 @@ public class OnyxFx extends Application {
     // JavaFX Lifecycle Method #3
     @Override public void stop () { player.getHUCInstance().disconnect(); };
 }
-
-/*
-SIZE=2048 ; diskutil erasevolume HFS+ 'RoboVM RAM Disk' `hdiutil attach -nomount ram://$((SIZE * 2048))`
-To create a 32 GB RAM disk, run this in your terminal:
-SIZE=4096 ; diskutil erasevolume HFS+ 'RoboVM RAM Disk' `hdiutil attach -nomount ram://$((SIZE * 2048))`
-See http://docs.robovm.com/ for more info
-*/

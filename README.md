@@ -1,7 +1,7 @@
 # OnyxFx®
 Gradle source code repository for OnyxFx, a cross-platform (Android/iOS/Linux/macOS/Windows) JavaFX app rendering information about NBA® statistics. Built and tested on Fedora Linux 28/macOS High Sierra. App designed to complement my blog @ https://bit.ly/JavaFXMobile.
 
-<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.png"/> </p>
+<p align="center"> <img src ="https://raw.githubusercontent.com/afinlay5/OnyxFx/master/blog.gif"/> </p>
 
 Pre-built binaries can be found in the following directories:
 
@@ -23,6 +23,7 @@ Pre-built binaries can be found in the following directories:
 - XCode 9.2.
 - Gradle 4.2.
 - Git Large File Storage (v.2.5.0)
+- Preferably at least 4G RAM
 
 # Known Problems
 - N/A (08/01/2018).
